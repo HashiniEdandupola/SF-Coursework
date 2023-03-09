@@ -46,9 +46,9 @@ Implementing full functional distributed system for bank.This is the basic summa
 
 
 ## Contact
-H.R.Edandupola   - https://github.com/HashiniEdandupola
-
 P.S.A.T Lakshani - https://github.com/tiki985860
+
+H.R.Edandupola   - https://github.com/HashiniEdandupola
 
 D.P Wijenayaka   - https://github.com/Dulari99wijenayake
 
