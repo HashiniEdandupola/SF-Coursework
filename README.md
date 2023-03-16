@@ -1,6 +1,6 @@
 <div id="top"></div>
 <h1 align="center">SF-Coursework-21.1</h1>
-<p align="center">Implementing Full Functional Distributed System for Bank</p>
+<p align="center">Implementing Full Functional Distributed System for Hotel</p>
 <details>
   <summary>Table of Contents</summary>
     <ol>
