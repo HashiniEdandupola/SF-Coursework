@@ -27,7 +27,7 @@ Implementing full functional distributed system for bank.This is the basic summa
 * Jsp
 * Java Beans
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align ="right">(<a href="#top">back to top</a>)</p>
 
 ## Roadmap
 - [x] Setting Up the repo for the group
