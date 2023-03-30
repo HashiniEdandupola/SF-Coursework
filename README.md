@@ -15,7 +15,7 @@
 
 
 ## About The Project
-Implementing full functional distributed system for bank.This is the basic summary of this project.<br>
+Implementing full functional distributed system for bank. This is the basic summary of this project.<br>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Built With
@@ -45,6 +45,7 @@ Implementing full functional distributed system for bank.This is the basic summa
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+
 ## Contact
 P.S.A.T Lakshani - https://github.com/tiki985860
 
@@ -55,6 +56,7 @@ D.P Wijenayaka   - https://github.com/Dulari99wijenayake
 C.T Samarasinghe - https://github.com/Chamudi-Samarasinghe
 
 W.C.C.Wijemanna - https://github.com/Chathurangiw
+
 
 
 Project Link: https://github.com/HashiniEdandupola/SF-Coursework
