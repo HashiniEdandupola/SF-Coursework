@@ -20,7 +20,8 @@ Implementing full functional distributed system for hotel. This is the basic sum
 
 ## Built With
 * python
-* django
+* django framework
+* sqlite3
 
 <p align ="right">(<a href="#top">back to top</a>)</p>
 
