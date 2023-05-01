@@ -1,0 +1,206 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 30, 2021, 11:06:08 PM
+    Author     : Nonim
+*/
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'KoHo', sans-serif;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 0vh;
+    background: linear-gradient(to bottom, #33ccff 0%, #000066 100%);
+}
+.logo
+{
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    padding: 20px 12px;
+    
+}
+.nav-links
+{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin-bottom: 0px;
+    padding: 20px 12px;
+}
+.nav-links li
+{
+    list-style: none;
+}
+.nav-links a
+{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.burger
+{
+    display: none;
+    cursor: pointer;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px 12px;
+}
+.burger div
+{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width:1100px)
+{
+    .nav-links
+    {
+        width: 60%;
+    }
+}
+@media screen and (max-width:880px)
+{
+    body
+    {
+        overflow-x: hidden;
+    }
+    .nav-links
+    {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 9vh;
+        background: linear-gradient(to top, #33ccff 0%, #000066 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        margin-top: 0px;
+    }
+    .nav-links li
+    {
+        opacity: 0;
+    }
+    .burger
+    {
+        display: block;
+    }
+}
+.nav-active
+{
+    transform: translateX(0%);
+}
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.toggle .line1
+{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2
+{
+    opacity: 0;
+}
+.toggle .line3
+{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+.footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #0f213d;
+    height: 50%;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #0f213d;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
