@@ -15,17 +15,12 @@
 
 
 ## About The Project
-Implementing full functional distributed system for bank. This is the basic summary of this project.<br>
+Implementing full functional distributed system for hotel. This is the basic summary of this project.<br>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Built With
-* HTML
-* CSS
-* JavaScript
-* Mysql
-* Java servelet
-* Jsp
-* Java Beans
+* python
+* django
 
 <p align ="right">(<a href="#top">back to top</a>)</p>
 
