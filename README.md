@@ -27,9 +27,6 @@ Implementing full functional distributed system for hotel. This is the basic sum
 
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 ## Contact
 P.S.A.T Lakshani - https://github.com/tiki985860
